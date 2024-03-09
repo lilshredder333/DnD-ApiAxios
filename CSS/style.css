@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    border: solid 2px red;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+/* Style for the navbar links */
+.navbar a {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+    height: 100%;
+    transition: background-color 0.3s;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Change color of navbar links on hover */
+.navbar a:hover {
+    background-color: #555;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 70px;
+    background-color: #333;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+
+
+}
